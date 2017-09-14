@@ -33,7 +33,7 @@ if ( ! function_exists( 'ttcd_time_link' ) ) :
  * Gets a nicely formatted string for the published date.
  */
 function ttcd_time_link() {
-	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+	$time_string = '<time class="entry-date published updated" datetime="%1$s"> &nbsp;%2$s</time>';
 
 	$time_string = sprintf( $time_string,
 		get_the_date( DATE_W3C ),

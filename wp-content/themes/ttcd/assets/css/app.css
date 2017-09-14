@@ -107,6 +107,15 @@ h4 {
 .navbar-ttcd .navbar-toggle .icon-bar {
     background-color: #fff;
 }
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+.wp-caption.alignnone {
+    width: 100% !important;
+    color: #1988db;
+    text-align: center;
+    font-style: italic;
+}
 .slider-lv .item h2 a {
 	color: #fff;
 }
