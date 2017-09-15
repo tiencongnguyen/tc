@@ -22,8 +22,8 @@
 	<?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <div class="header">
-      <div class="top-header">
+    <div class="header" id="header">
+      <div class="top-header" id="top-header">
         <div class="container">
           <div class="hot-link pull-left">
             <span class="hotline"><i class="fa fa-phone"></i> <strong><a href="tel:<?php echo get_theme_mod( 'ttcd_phonenumber', '098.855.2424' ); ?>" title="hotlline"><?php echo get_theme_mod( 'ttcd_phonenumber', '098.855.2424' ); ?></a></strong></span>
@@ -36,7 +36,7 @@
           </div>
         </div>
       </div> <!-- Top Header -->
-      <div class="content-header hidden-xs">
+      <div class="content-header hidden-xs" id="content-header">
         <div class="container">
           <div class="row">
             <div class="col-md-3">

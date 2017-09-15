@@ -107,8 +107,13 @@ h4 {
 .navbar-ttcd .navbar-toggle .icon-bar {
     background-color: #fff;
 }
-ul.nav li.dropdown:hover ul.dropdown-menu {
-    display: block;
+.header-fixed #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 3px #f5f5f5;
+    z-index: 1000;
 }
 .wp-caption.alignnone {
     width: 100% !important;
