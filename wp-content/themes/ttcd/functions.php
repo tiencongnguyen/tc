@@ -139,7 +139,7 @@ function ttcd_setup() {
 			'footer-3' => array(
           'brands' => array ('text', array(
         		'title' => _x('Chi nhánh', 'Theme starter content', 'ttcd'),
-        		'text' => sprintf(_x('<div class="tab-header"><a href="#">Hà Nội</a> | <a href="#">TP.HCM</a> | <a href="#">Singapore</a></div><img class="img-responsive" src="%1s">', 'Theme starter content', 'ttcd'),get_theme_file_uri('assets/images/mapsing.jpg')),
+        		'text' => _x('<ul class="nav nav-tabs"> <li class="active"><h5><a href="#hanoi">Hà Nội</a></h5></li> <li><h5><a href="#hcm">TP HCM</a></h5></li> <li><h5><a href="#sing">Singapo</a></h5></li> </ul> <div class="tab-content"> <div id="hanoi" class="tab-pane fade in active"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d953726.9246343331!2d105.09065670049068!3d20.972753831676876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135008e13800a29%3A0x2987e416210b90d!2sHanoi%2C+Vietnam!5e0!3m2!1sen!2s!4v1505456054382" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe> </div> <div id="hcm" class="tab-pane fade"> <h3>HCM</h3> </div> <div id="sing" class="tab-pane fade"> <h3>Sing</h3> </div> </div>', 'Theme starter content', 'ttcd'),
         		'filter' => true,
 						'visual' => true, 
           ))

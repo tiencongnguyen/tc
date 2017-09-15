@@ -29,5 +29,8 @@
         'margin-top' : 0
       });
     }
-  })
+  });
+  $(".nav-tabs a").click(function(){
+      $(this).tab('show');
+  });
 })( jQuery );

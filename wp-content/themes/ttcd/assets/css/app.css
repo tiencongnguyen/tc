@@ -108,18 +108,18 @@ h4 {
     background-color: #fff;
 }
 .header-fixed #header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: 0 2px 3px #f5f5f5;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 3px #f5f5f5;
+  z-index: 1000;
 }
 .wp-caption.alignnone {
-    width: 100% !important;
-    color: #1988db;
-    text-align: center;
-    font-style: italic;
+  width: 100% !important;
+  color: #1988db;
+  text-align: center;
+  font-style: italic;
 }
 .slider-lv .item h2 a {
 	color: #fff;
@@ -369,6 +369,19 @@ h4 {
 }
 .footer-link .fa {
 	color: #1988db;
+}
+.nav.nav-tabs {
+	border: 0;
+}
+.footer-link.widget iframe {
+    width: 100% !important;
+}
+.nav.nav-tabs > li.active a { color: #599a41; }
+.nav.nav-tabs > li a { padding-right: 10px; 
+	text-transform: none;}
+.nav.nav-tabs > li + li a{
+	border-left: solid 1px;
+	padding-left: 10px;
 }
 .tab-header {
 	font-size: 16px;
