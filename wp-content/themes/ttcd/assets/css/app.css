@@ -31,6 +31,7 @@ h4 {
 .hot-link {
 	color: #599a41;
 }
+.hotline a {color: #599a41;}
 .top-header .mail {
 	display: inline-block;
 	margin-left: 10px;
@@ -576,7 +577,7 @@ h4 {
 .action-fixed .phone {
 	line-height: 48px;
 	font-size: 32px;
-	background-color: rgba(33, 150, 243, 0.8);
+	background-color: #599a41;
 }
 .background-opacity {
     position: relative;
